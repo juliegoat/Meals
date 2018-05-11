@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  vegetable: MyString
+  protein: MyString
+  grain: MyString
+  fruit: MyString
+
+two:
+  vegetable: MyString
+  protein: MyString
+  grain: MyString
+  fruit: MyString

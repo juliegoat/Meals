@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Vegetable:</strong>
+  <%= @meal.vegetable %>
+</p>
+
+<p>
+  <strong>Protein:</strong>
+  <%= @meal.protein %>
+</p>
+
+<p>
+  <strong>Grain:</strong>
+  <%= @meal.grain %>
+</p>
+
+<p>
+  <strong>Fruit:</strong>
+  <%= @meal.fruit %>
+</p>
+
+<%= link_to 'Edit', edit_meal_path(@meal) %> |
+<%= link_to 'Back', meals_path %>
